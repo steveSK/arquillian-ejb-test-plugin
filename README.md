@@ -6,5 +6,5 @@ This small plugin allows you to write Arquillian tests for your EJB application 
 1. First add your project as a dependency to arquillian-ejb-plugin
 2. Add your EJB interfaces to ArquillianTest class
 3. create a deployment.xml with all dependencies
-4. write a tests by inheritting from ArquillianTest
+4. write tests by inheritting from ArquillianTest
 
