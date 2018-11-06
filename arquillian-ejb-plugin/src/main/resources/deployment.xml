@@ -1,0 +1,9 @@
+<deployment>
+    <packages>
+        <package recursive="true">arquillian.ejb.plugin</package>
+        <package recursive="true">arquillian.ejb.example</package>
+    </packages>
+    <resources>
+        <resource resourceName="META-INF/persistence.xml" target="META-INF/persistence.xml"/>
+    </resources>
+</deployment>

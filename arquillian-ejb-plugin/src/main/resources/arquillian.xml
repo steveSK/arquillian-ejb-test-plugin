@@ -1,0 +1,15 @@
+<arquillian xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    		xmlns="http://jboss.org/schema/arquillian"
+    		xsi:schemaLocation="
+        			http://jboss.org/schema/arquillian
+        			http://jboss.org/schema/arquillian/arquillian_1_0.xsd">
+
+	<container qualifier="wildfly-local" default="true">
+		<configuration>
+			<property name="managementAddress">localhost</property>
+			<property name="managementPort">9990</property>
+			<property name="username">admin</property>
+			<property name="password">1admin1</property>
+		</configuration>
+	</container>
+</arquillian>

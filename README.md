@@ -1,0 +1,1 @@
+# arquillian-ejb-test-plugin
