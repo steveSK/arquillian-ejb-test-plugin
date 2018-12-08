@@ -1,5 +1,5 @@
 # arquillian ejb test plugin
-This small plugin allows you to write Arquillian tests for your EJB application and run them from one place without necessity to add arquillian to your project. It can serve to build integration tests.
+This small project allows you to write Arquillian tests for your EJB application and run them from one place without necessity to add arquillian to your project. It can serve to build integration tests. The project is designed to be extended, adding your bussiness logic
 
 ## Guidelines
 
